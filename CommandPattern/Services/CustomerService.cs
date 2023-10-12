@@ -1,4 +1,4 @@
-﻿namespace CommandPattern
+﻿namespace CommandPattern.Services
 {
     public class CustomerService
     {

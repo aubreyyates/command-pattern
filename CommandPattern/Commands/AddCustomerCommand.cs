@@ -1,6 +1,7 @@
-﻿using CommandPattern.UI;
+﻿using CommandPattern.Services;
+using CommandPattern.UI;
 
-namespace CommandPattern
+namespace CommandPattern.Commands
 {
     public class AddCustomerCommand : Command
     {
