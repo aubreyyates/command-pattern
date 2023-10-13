@@ -5,16 +5,16 @@ namespace CommandPattern.Commands
 {
     public class CreateProjectCommand : Command
     {
-        private readonly ProjectService _customerService;
+        private readonly ProjectService _projectService;
 
-        public CreateProjectCommand(ProjectService customerService)
+        public CreateProjectCommand(ProjectService projectService)
         {
-            _customerService = customerService;
+            _projectService = projectService;
         }
 
         public void Execute()
         {
-            _customerService.CreateProject();
+            _projectService.CreateProject();
         }
     }
 }
